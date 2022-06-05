@@ -1,7 +1,5 @@
 # Azure functions Golang with Docker
 
-バッチが実行されたかどうかを監視するスクリプト
-
 ## Required
 
 `func`コマンドを使えるようにするため下記でインストール
@@ -49,7 +47,7 @@ curl http://localhost:8080/api/SampleHttpTrigger
 下記コマンドで Docker イメージを push 後、「Azure Portal > 関数アプリ」 より対象のアプリを選択し再起動することで Docker イメージを pull して終了です。
 
 ```bash
-DOCKER_IMAGE_TAG='your_azr_acr.azurecr.io/tools/function:stage'
+DOCKER_IMAGE_TAG='your_azr_acr.azurecr.io/tools/demo'
 
 az acr login --name your_azr_acr
 
