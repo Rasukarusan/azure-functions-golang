@@ -32,7 +32,7 @@ $ curl http://localhost:7071/api/SampleHttpTrigger
 
 - docker で起動する場合
 
-M1Mac だと起動に失敗します。
+M1 Mac だと起動に失敗します。
 
 ```bash
 docker-compose up --build
