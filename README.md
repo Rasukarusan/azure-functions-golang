@@ -15,7 +15,7 @@ $ func --version
 4.0.3971
 ```
 
-## 起動方法
+## Run
 
 - Mac で起動する場合
 
@@ -32,6 +32,8 @@ $ curl http://localhost:7071/api/SampleHttpTrigger
 
 - docker で起動する場合
 
+M1Mac だと起動に失敗します。
+
 ```bash
 docker-compose up --build
 ```
@@ -42,7 +44,7 @@ docker-compose up --build
 curl http://localhost:8080/api/SampleHttpTrigger
 ```
 
-## デプロイ
+## Deploy
 
 下記コマンドで Docker イメージを push 後、「Azure Portal > 関数アプリ」 より対象のアプリを選択し再起動することで Docker イメージを pull して終了です。
 
